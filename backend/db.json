@@ -1,0 +1,94 @@
+{
+  "pensamentos": [
+    {
+      "id": "7",
+      "conteudo": "A vida é 10% o que acontece com você e 90% como você reage a isso.",
+      "autoria": "Charles Swindoll",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "8",
+      "conteudo": "Não há elevador para o sucesso; você tem que subir as escadas.",
+      "autoria": "Desconhecido",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "9",
+      "conteudo": "Se você quer algo que nunca teve, precisa fazer algo que nunca fez.",
+      "autoria": "Desconhecido",
+      "modelo": "modelo2"
+    },
+    {
+      "id": "10",
+      "conteudo": "Grandes realizações não são feitas por impulso, mas por uma soma de pequenas conquistas.",
+      "autoria": "Vincent Van Gogh",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "11",
+      "conteudo": "A jornada de mil milhas começa com um único passo.",
+      "autoria": "Lao-Tsé",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "12",
+      "conteudo": "Sonhar grande e trabalhar duro são os ingredientes para uma vida de sucesso.",
+      "autoria": "Desconhecido é teu pai",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "13",
+      "conteudo": "O que você faz hoje pode melhorar todos os seus amanhãs.",
+      "autoria": "Ralph Marston",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "14",
+      "conteudo": "Nunca é tarde demais para ser o que você poderia ter sido.",
+      "autoria": "George Eliot",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "15",
+      "conteudo": "Mantenha seus pensamentos positivos, porque seus pensamentos se tornam suas palavras.",
+      "autoria": "Mahatma Gandhi",
+      "modelo": "modelo2"
+    },
+    {
+      "id": "16",
+      "conteudo": "A vida é curta, mas as possibilidades são infinitas.",
+      "autoria": "Desconhecido",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "17",
+      "conteudo": "A única coisa que está entre você e seu sonho é a vontade de tentar e a crença de que é realmente possível.",
+      "autoria": "Joel Brown",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "18",
+      "conteudo": "O sucesso não é definitivo, o fracasso não é fatal: o que conta é a coragem de continuar.",
+      "autoria": "Winston Churchill",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "19",
+      "conteudo": "Você nunca será o suficiente para todos, mas será sempre o suficiente para si mesmo.",
+      "autoria": "Desconhecido",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "20",
+      "conteudo": "Se você não mudar nada, nada mudará.",
+      "autoria": "Desconhecido",
+      "modelo": "modelo2"
+    },
+    {
+      "id": "2915",
+      "conteudo": "Estudar angular é muito bacana",
+      "autoria": "Moises Almeida",
+      "modelo": "modelo3"
+    }
+  ]
+}
