@@ -10,12 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ExcluirPensamentoComponent implements OnInit{
 
-  pensamento: Pensamento = {
-    id: 0,
-    conteudo: '',
-    autoria: '',
-    modelo: ''
-  }
+  pensamento: Pensamento | undefined
 
   constructor(
     private service: PensamentoService,
@@ -31,8 +26,8 @@ export class ExcluirPensamentoComponent implements OnInit{
   }
 
   excluirPensamento() {
-    if(this.pensamento.id){
-      this.service.excluir(this.pensamento.id).subscribe(() => {
+    if(this.pensamento!.id){
+      this.service.excluir(this.pensamento!.id).subscribe(() => {
         this.router.navigate(['/listarPensamento'])
       })
     }

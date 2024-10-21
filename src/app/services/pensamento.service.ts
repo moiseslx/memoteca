@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class PensamentoService {
-  private readonly API = 'http://localhost:3000/pensamentos';
+  private readonly API = 'http://192.168.15.87:3000/pensamentos';
 
   constructor(private http: HttpClient) {}
 
@@ -15,11 +15,11 @@ export class PensamentoService {
     const itensPorPagina = 6;
 
     let params = new HttpParams()
-    .set('_page', pagina)
-    .set('_limit', itensPorPagina)
+      .set('_page', pagina)
+      .set('_limit', itensPorPagina);
 
-    if(filtro.trim().length > 2){
-      params = params.set('q', filtro)
+    if (filtro.trim().length > 2) {
+      params = params.set('q', filtro);
     }
 
     return this.http.get<Pensamento[]>(this.API, { params: params });

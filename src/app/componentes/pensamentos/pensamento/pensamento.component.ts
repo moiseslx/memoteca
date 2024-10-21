@@ -8,20 +8,14 @@ import { Pensamento } from '../../../interfaces/pensamento';
 })
 export class PensamentoComponent {
 
-  @Input() pensamento : Pensamento = {
-    id: 0,
-    conteudo: '',
-    autoria: '',
-    modelo: "modelo1"
-  }
+  @Input() pensamento : Pensamento | undefined
 
   larguraPensamento(): string {
-    if(this.pensamento.conteudo.length >= 200){
+    if(this.pensamento!.conteudo.length >= 200){
       return 'pensamento-g'
     }
-
     return 'pensamento-p'
   }
 
-  
+
 }
