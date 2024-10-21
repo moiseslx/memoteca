@@ -7,15 +7,309 @@
       "modelo": "modelo3"
     },
     {
+      "id": 2,
       "conteudo": "A malvada da morte passou perto de mim",
       "autoria": "Pericles",
-      "modelo": "modelo1",
-      "id": 2
+      "modelo": "modelo1"
     },
     {
       "id": 3,
-      "conteudo": "dasd adnaisdniasda",
-      "autoria": "Giio",
+      "conteudo": "A vida é um mistério, e cada passo revela algo novo.",
+      "autoria": "Mariana Silva",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 4,
+      "conteudo": "A paciência é a chave para superar qualquer obstáculo.",
+      "autoria": "João Pedro",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 5,
+      "conteudo": "Mesmo na tempestade, é possível encontrar calma.",
+      "autoria": "Ana Clara",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 6,
+      "conteudo": "A coragem é um hábito que cultivamos diariamente.",
+      "autoria": "Lucas Ferreira",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 7,
+      "conteudo": "Cada sonho é uma pequena semente esperando florescer.",
+      "autoria": "Beatriz Rocha",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 8,
+      "conteudo": "A felicidade não é o destino, é o caminho.",
+      "autoria": "Fernando Souza",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 9,
+      "conteudo": "A gentileza é a linguagem que todos compreendem.",
+      "autoria": "Luana Santos",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 10,
+      "conteudo": "A vida é um ciclo de aprendizados e renovações.",
+      "autoria": "Ricardo Alves",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 11,
+      "conteudo": "No silêncio, encontramos as respostas mais profundas.",
+      "autoria": "Gabriela Lima",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 12,
+      "conteudo": "O sucesso começa quando decidimos não desistir.",
+      "autoria": "Thiago Nogueira",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 13,
+      "conteudo": "A liberdade vem de dentro, não de fora.",
+      "autoria": "Cecília Mendes",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 14,
+      "conteudo": "Tudo na vida tem um tempo certo para acontecer.",
+      "autoria": "Mateus Carvalho",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 15,
+      "conteudo": "A gratidão transforma o que temos em suficiente.",
+      "autoria": "Bruna Fernandes",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 16,
+      "conteudo": "Cada dia é uma nova oportunidade de ser melhor.",
+      "autoria": "Felipe Amaral",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 17,
+      "conteudo": "O amor é o maior de todos os tesouros.",
+      "autoria": "Isabela Costa",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 18,
+      "conteudo": "A determinação constrói pontes para os sonhos.",
+      "autoria": "Diego Martins",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 19,
+      "conteudo": "As estrelas sempre brilham mais no meio da escuridão.",
+      "autoria": "Paula Ribeiro",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 20,
+      "conteudo": "A perseverança é o combustível para o sucesso.",
+      "autoria": "Leonardo Dias",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 21,
+      "conteudo": "As melhores coisas da vida são simples e verdadeiras.",
+      "autoria": "Juliana Oliveira",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 22,
+      "conteudo": "A mudança começa em nossos corações e mentes.",
+      "autoria": "Gustavo Almeida",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 23,
+      "conteudo": "O otimismo é a força que nos move para frente.",
+      "autoria": "Camila Batista",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 24,
+      "conteudo": "A verdade sempre encontra uma maneira de se revelar.",
+      "autoria": "Rafael Moura",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 25,
+      "conteudo": "O tempo é o maior presente que podemos dar a alguém.",
+      "autoria": "Laura Lima",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 26,
+      "conteudo": "Cada amanhecer traz a promessa de algo novo.",
+      "autoria": "Pedro Reis",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 27,
+      "conteudo": "A serenidade é um presente valioso em tempos de caos.",
+      "autoria": "Marta Correia",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 28,
+      "conteudo": "A força verdadeira vem do coração, não dos músculos.",
+      "autoria": "Bruno Farias",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 29,
+      "conteudo": "A vida é uma obra de arte, e cada momento é uma pincelada.",
+      "autoria": "Renata Mendes",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 30,
+      "conteudo": "A sabedoria está em saber quando falar e quando ouvir.",
+      "autoria": "Carlos Santos",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 31,
+      "conteudo": "A vida é curta demais para não seguir nossos sonhos.",
+      "autoria": "Sofia Rocha",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 32,
+      "conteudo": "Cada escolha nos leva a um novo destino.",
+      "autoria": "Eduardo Lima",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 33,
+      "conteudo": "A simplicidade é a última sofisticação.",
+      "autoria": "Luiza Moreira",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 34,
+      "conteudo": "A esperança é o que mantém o coração vivo.",
+      "autoria": "Rafael Costa",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 35,
+      "conteudo": "A verdadeira felicidade está nas pequenas coisas.",
+      "autoria": "Mariana Martins",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 36,
+      "conteudo": "Cada desafio é uma oportunidade de crescimento.",
+      "autoria": "Rodrigo Gomes",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 37,
+      "conteudo": "O sucesso é feito de pequenas vitórias diárias.",
+      "autoria": "Juliana Castro",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 38,
+      "conteudo": "A vida é um presente, e cada dia é uma nova chance.",
+      "autoria": "Vinicius Lopes",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 39,
+      "conteudo": "A gratidão transforma tudo ao nosso redor.",
+      "autoria": "Lucas Braga",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 40,
+      "conteudo": "A fé move montanhas, mesmo as mais altas.",
+      "autoria": "Isabela Santos",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 41,
+      "conteudo": "O caminho da paz começa com o perdão.",
+      "autoria": "Giovana Pires",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 42,
+      "conteudo": "A compaixão é a maior forma de sabedoria.",
+      "autoria": "Rafaela Mendes",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 43,
+      "conteudo": "Os sonhos são as estrelas que iluminam nosso caminho.",
+      "autoria": "Caio Teixeira",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 44,
+      "conteudo": "A determinação é a chave que abre as portas do sucesso.",
+      "autoria": "Bárbara Matos",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 45,
+      "conteudo": "O amor verdadeiro não conhece limites.",
+      "autoria": "Antônio Silva",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 46,
+      "conteudo": "A bondade é um ato de coragem em um mundo áspero.",
+      "autoria": "Marina Dias",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 47,
+      "conteudo": "A beleza da vida está nos momentos que compartilhamos.",
+      "autoria": "Gabriel Moreira",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 48,
+      "conteudo": "A sabedoria é fruto de experiências bem vividas.",
+      "autoria": "Ana Paula Vieira",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 49,
+      "conteudo": "A vida floresce onde há amor e respeito.",
+      "autoria": "Paulo César",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 50,
+      "conteudo": "A felicidade está em viver o presente com plenitude.",
+      "autoria": "Clarice Rodrigues",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 51,
+      "conteudo": "O conhecimento é a maior forma de poder.",
+      "autoria": "Fábio Andrade",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 52,
+      "conteudo": "O respeito é a base de todas as relações duradouras.",
+      "autoria": "Renato Azevedo",
       "modelo": "modelo1"
     }
   ]
