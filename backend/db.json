@@ -40,7 +40,7 @@
       "conteudo": "A coragem é um hábito que cultivamos diariamente.",
       "autoria": "Moises Almeida",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 7,
@@ -158,7 +158,7 @@
       "id": 23,
       "conteudo": "O otimismo é a força que nos move para frente.",
       "autoria": "Moises Almeida",
-      "modelo": "modelo3",
+      "modelo": "modelo2",
       "favorito": false
     },
     {
