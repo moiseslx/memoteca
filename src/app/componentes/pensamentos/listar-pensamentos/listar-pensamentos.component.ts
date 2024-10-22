@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Pensamento } from '../../../interfaces/pensamento';
 import { PensamentoService } from '../../../services/pensamento.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-listar-pensamentos',
@@ -13,31 +14,38 @@ export class ListarPensamentosComponent implements OnInit {
   paginaAtual: number = 1;
   haMaisPensamentos: boolean = true;
   filtro: string = '';
-  favoritos: boolean = false
+  favoritos: boolean = false;
+  listaFavoritos: Pensamento[] = [];
 
-  constructor(private service: PensamentoService) {}
+  constructor(private service: PensamentoService, private router: Router) {}
 
   ngOnInit(): void {
-    this.service.listar(this.paginaAtual, this.filtro, this.favoritos).subscribe((value) => {
-      this.listaPensamentos = value;
-    });
+    this.service
+      .listar(this.paginaAtual, this.filtro, this.favoritos)
+      .subscribe((value) => {
+        this.listaPensamentos = value;
+      });
   }
 
   carregarMaisPensamentos() {
-    this.service.listar(++this.paginaAtual, this.filtro, this.favoritos).subscribe((value) => {
-      this.listaPensamentos.push(...value);
-      if (!value.length) {
-        this.haMaisPensamentos = false;
-      }
-    });
+    this.service
+      .listar(++this.paginaAtual, this.filtro, this.favoritos)
+      .subscribe((value) => {
+        this.listaPensamentos.push(...value);
+        if (!value.length) {
+          this.haMaisPensamentos = false;
+        }
+      });
   }
 
   pesquisarPensamentos() {
     this.haMaisPensamentos = true;
     this.paginaAtual = 1;
-    this.service.listar(this.paginaAtual, this.filtro, this.favoritos).subscribe((value) => {
-      this.listaPensamentos = value;
-    });
+    this.service
+      .listar(this.paginaAtual, this.filtro, this.favoritos)
+      .subscribe((value) => {
+        this.listaPensamentos = value;
+      });
   }
 
   listarFavoritos() {
@@ -48,6 +56,13 @@ export class ListarPensamentosComponent implements OnInit {
       .listar(this.paginaAtual, this.filtro, this.favoritos)
       .subscribe((value) => {
         this.listaPensamentos = value;
+        this.listaFavoritos = value;
       });
+  }
+
+  recarregarPensamentos() {
+    this.favoritos = false
+    this.paginaAtual = 1
+    this.router.navigate([this.router.url])
   }
 }

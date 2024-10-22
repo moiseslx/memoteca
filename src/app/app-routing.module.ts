@@ -1,38 +1,43 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouteReuseStrategy, RouterModule, Routes } from '@angular/router';
 import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
 import { ListarPensamentosComponent } from './componentes/pensamentos/listar-pensamentos/listar-pensamentos.component';
 import { ExcluirPensamentoComponent } from './componentes/pensamentos/excluir-pensamento/excluir-pensamento.component';
 import { EditarPensamentoComponent } from './componentes/pensamentos/editar-pensamento/editar-pensamento.component';
+import { CustomReuseStrategy } from './configuration/custom-reuse-strategy';
 
 const routes: Routes = [
   {
     path: 'criarPensamento',
-    component: CriarPensamentoComponent
+    component: CriarPensamentoComponent,
   },
   {
     path: 'listarPensamento',
-    component: ListarPensamentosComponent
+    component: ListarPensamentosComponent,
+    data: {
+      reuseComponent: true,
+    }
   },
   {
     path: 'pensamentos/excluirPensamento/:id',
-    component: ExcluirPensamentoComponent
+    component: ExcluirPensamentoComponent,
   },
   {
     path: 'pensamentos/editarPensamento/:id',
-    component: EditarPensamentoComponent
+    component: EditarPensamentoComponent,
   },
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'listarPensamento'
-  }
+    redirectTo: 'listarPensamento',
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { onSameUrlNavigation: 'reload' })],
+  exports: [RouterModule],
+  providers: [
+    {provide: RouteReuseStrategy, useClass: CustomReuseStrategy}
+  ]
 })
-export class AppRoutingModule {
-
-}
+export class AppRoutingModule {}

@@ -5,21 +5,21 @@
       "conteudo": "Hoje eu tive tanta sorte",
       "autoria": "Moises Almeida",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "A malvada da morte passou perto de mim",
       "autoria": "Pericles",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "A vida é um mistério, e cada passo revela algo novo.",
       "autoria": "Moises Almeida",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 4,
@@ -68,7 +68,7 @@
       "conteudo": "A vida é um ciclo de aprendizados e renovações.",
       "autoria": "Ricardo Alves",
       "modelo": "modelo1",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 11,
@@ -117,7 +117,7 @@
       "conteudo": "O amor é o maior de todos os tesouros.",
       "autoria": "Moises Almeida",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 18,
